@@ -1,0 +1,174 @@
+/*!
+* Theme Name: Opoma Farms Theme
+* Theme URI: http://opomafarms.com;
+* Description: Custom theme for Opoma Farms built by Kristen Spencer.
+* Version: 1.0
+* Author: Kristen Spencer
+* Author URI: http://kristen.codes
+*/
+
+$green: #86bc42;
+
+@import 'mixins';
+@import 'normalize';
+@import 'typography';
+@import 'navigation';
+@import 'sidebar';
+@import 'comments';
+@import 'footer';
+/*
+====================================
+Default Styling
+====================================
+*/
+
+img {
+	// width: 100%;
+}
+
+body {
+	color: #333;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 20px;
+	h2{
+		text-align: center;
+	}
+}
+
+.flex{
+	display: flex;
+	@include respond-to(medium){
+		flex-direction: column;
+	}
+}
+
+.full {
+	width: 100%;
+}
+
+section{
+	padding: 50px 0;
+}
+
+.welcome{
+	text-align: center;
+}
+
+.welcome-features{
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	@include respond-to('max-width: 830px'){
+		flex-direction: column;
+	}
+	.features{
+		@include respond-to('max-width: 830px'){
+		order: 2;
+		display: flex;
+		text-align: center;
+		& > * {
+			padding: 10px 70px;
+		}
+	}
+	@include respond-to(small){
+		flex-direction: column;
+	}
+
+
+	}
+	img{
+		max-width: 100%;
+	}
+}
+
+.welcome-photo{
+	flex: 2 0 auto;
+	padding: 0 10%;
+	img{
+		width: 100%;
+	}
+}
+
+.testimonials{
+	background: url("https://unsplash.it/4528/2214?image=915");
+	background-size: cover;
+	color: white;
+	text-align: center;
+	h2{
+		@include respond-to('max-width: 925px'){
+			margin: 0;
+		}
+	}
+}
+
+.testimonials-group{
+	display: flex;
+	justify-content: space-between;
+	@include respond-to('max-width: 925px'){
+		display: block;
+	}
+	.testimonial-single{
+		width: 33.3%;
+		background-image: url('./images/testimonial-circle.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		padding: 35px;
+		@include respond-to('max-width: 925px'){
+			display: block;
+			width: 100%;
+			background-image: none;
+			padding: 15px;
+		}
+		h4{
+			margin-bottom: 10px;
+		}
+		img{
+			position: relative;
+			top: 20px;
+			@include respond-to('max-width: 925px'){
+				top: 0;
+			}
+		}
+		p{
+			width: 70%;
+			margin: 0 auto;
+		}
+	}
+}
+
+
+.meet{
+	text-align: center;
+	img{
+		padding-right: 20px;
+	}
+	.family{
+		text-align: left;
+	}
+}
+
+
+.banner{
+	background: url('https://unsplash.it/4528/2214?image=915');
+	background-size: cover;
+	text-align: right;
+	color: white;
+	h3{
+		font-family: 'Pacifico', cursive;
+		font-size: 40px;
+		margin: 0;
+		@include respond-to(medium){
+			font-size: 30px;
+		}
+	}
+	p{
+		font-size: 20px;
+		margin: 0;
+	}
+}
+

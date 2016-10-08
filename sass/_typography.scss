@@ -1,0 +1,44 @@
+body{
+	font-family: 'Cuprum', sans-serif;
+
+}
+
+h1{
+	font-size: 40px;
+}
+
+h2{
+	font-size: 35px;
+}
+
+h1, h2{
+	font-family: 'Pacifico', cursive;
+}
+
+a{
+	text-decoration: none;
+	color: #333;
+	transition: all 0.5s;
+	&:hover{
+		color: $green;
+	}
+}
+
+ul{
+	padding: 0;
+	li{
+		list-style: none;
+	}
+}
+
+p{
+	line-height: 1.5;
+}
+
+.green{
+	color: $green;
+}
+
+.blog-content img{
+	margin-right: 20px;
+}
