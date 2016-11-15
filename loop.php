@@ -22,7 +22,7 @@
           <?php the_title(); ?>
         </a>
       </h2>
-
+      <p class="entry-info">Posted by: <?php the_author() ?> | <?php the_date() ?></p>
 			<section class="entry-content">
 				<?php the_content('Continue reading <span class="meta-nav">&rarr;</span>'); ?>
 				<?php wp_link_pages( array(

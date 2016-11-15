@@ -4,9 +4,13 @@
     <div class="social-widgets flex">
     	<div class="contact">
     		<h3>Contact Us</h3>
-         <p><i class="fa fa-map-marker" aria-hidden="true"></i>132 My Street Frankford, ON</p>
-         <p><i class="fa fa-phone" aria-hidden="true"></i>293-525-6266</p>
-         <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>hello@opomafarms.com</a>
+         <p><i class="fa fa-map-marker" aria-hidden="true"></i>450 County Rd. 5 Wooler, ON K0K 3M0</p>
+         <p>
+         <a href="tel:1-613-827-3050"><i class="fa fa-phone" aria-hidden="true"></i>John Moelker (613) 827-3050</a>
+         </p>
+         <p><a href="tel:1-613-827-2530"><i class="fa fa-phone" aria-hidden="true"></i>Connie Moelker (613) 827-2530</a></p>
+         <p><a href="tel:1-613-827-4602"><i class="fa fa-phone" aria-hidden="true"></i>Brad Gibson (613) 827-4602<</a></p>
+         <a href="mailto:opomafarms@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>opomafarms@gmail.com</a>
      </div>
      <div class="menu">
         <h3>Site Menu</h3>
@@ -26,8 +30,8 @@
     <div class="container flex">
         <p>&copy Opoma Farms</p>
         <div class="social-icons">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a target="_blank" href="https://www.facebook.com/Opoma-Farm-1640233392888696/"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://www.instagram.com/opoma_farms/"><i class="fa fa-instagram"></i></a>
         </div>
     </div>
 </div>

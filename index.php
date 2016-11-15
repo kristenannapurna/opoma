@@ -3,7 +3,7 @@
 
 <div class="main">
   <div class="container">
-
+  	<h2>On The Farm</h2>
     <div class="content">
     		<?php get_template_part( 'loop', 'index' );	?>
     </div> <!--/.content -->
@@ -12,3 +12,5 @@
 </div> <!-- /.main -->
 
 <?php get_footer(); ?>
+
+

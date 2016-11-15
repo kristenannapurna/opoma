@@ -16,6 +16,7 @@ $green: #86bc42;
 @import 'sidebar';
 @import 'comments';
 @import 'footer';
+@import 'blog';
 /*
 ====================================
 Default Styling
@@ -94,11 +95,12 @@ section{
 }
 
 .testimonials{
-	background: url("https://unsplash.it/4528/2214?image=915");
+	background: url("./images/opoma-skyline.jpg");
 	background-size: cover;
 	color: white;
 	text-align: center;
 	h2{
+		color: #333;
 		@include respond-to('max-width: 925px'){
 			margin: 0;
 		}
@@ -146,6 +148,9 @@ section{
 	text-align: center;
 	img{
 		padding-right: 20px;
+		@include respond-to(medium){
+			padding-right: 0;
+		}
 	}
 	.family{
 		text-align: left;
@@ -153,22 +158,32 @@ section{
 }
 
 
-.banner{
-	background: url('https://unsplash.it/4528/2214?image=915');
-	background-size: cover;
-	text-align: right;
-	color: white;
-	h3{
-		font-family: 'Pacifico', cursive;
-		font-size: 40px;
-		margin: 0;
-		@include respond-to(medium){
-			font-size: 30px;
-		}
-	}
-	p{
-		font-size: 20px;
-		margin: 0;
+
+
+.blog-content img{
+	margin-right: 20px;
+	@include respond-to(medium){
+		margin-right: 0;
 	}
 }
 
+
+// STYLES FOR GENERAL PAGE.PHP
+
+.page, .blog, .single{
+	header{
+		background: #12191b;
+		a{
+			color: white;
+			&:hover{
+				color: $green;
+			}
+		}
+	}
+	.content{
+		padding-bottom: 50px;
+		p{
+			font-size: 20px;
+		}
+	}
+}

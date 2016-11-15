@@ -29,6 +29,7 @@ nav{
 			flex-direction: column;
 			text-align: center;
 			margin: 0;
+			padding-bottom:25px;
 		}
 		li{
 			@include respond-to(medium){
@@ -36,6 +37,9 @@ nav{
 			}
 			@include respond-to(small){
 				padding: 5px 0;
+				a{
+					color:white;
+				}
 			}
 		}
 	}
@@ -49,12 +53,17 @@ nav{
 	}
 }
 
-header{
-	background: url('https://unsplash.it/1572/1179?image=337');
+
+.page.home{
+	header{
+		background: url('./images/opoma-landscape.jpg');
 	background-size: cover;
-	@include respond-to(small){
-		background: white;
+	a{
+		color: #333;
 	}
+	}
+}
+header{
 	.flex{
 		flex-direction: column;
 	}

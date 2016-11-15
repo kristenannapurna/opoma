@@ -1,7 +1,7 @@
 <?php get_header();  ?>
 
 <div class="main">
-  <div class="content">
+  <div class="content-home">
     <?php // Start the loop ?>
     <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
       <section class="welcome">
@@ -11,7 +11,7 @@
             <div class="features features1">
               <div>
                 <img src=" <?php bloginfo('template_directory') ?>/images/opoma-icon04.png" alt="100% natural">
-                <h3>100% Natural</h3>
+                <h3>100% Grass Fed Beef</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               </div>
               <div>
@@ -21,7 +21,7 @@
               </div>
             </div>
             <div class="welcome-photo">
-              <img src="https://placehold.it/500x400" alt="">
+              <img src="<?php bloginfo('template_directory') ?>/images/cow-face.jpg " alt="">
             </div>
             <div class="features features2">
               <div>
@@ -60,28 +60,28 @@
           </div>
         </div>
       </section>
-      <section class="meet">
-        <div class="container">
-          <h2>Meet The Family</h2>
-          <div class="flex">
-            <img src="https://placehold.it/500x400" alt="The Gibsons">
-            <div class="family">
-              <h4>The Gibsons</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur excepturi, ea voluptate doloribus cupiditate maxime repellat, eius nisi temporibus cumque reprehenderit quas fugiat. Architecto, voluptatum!</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci tempora sed nesciunt, inventore magni, aspernatur saepe ad praesentium eaque fugit est perferendis? Sapiente, esse, accusamus.</p>
+        <!-- <section class="meet">
+          <div class="container">
+            <h2>Meet The Family</h2>
+            <div class="flex">
+              <img src="https://placehold.it/500x400" alt="The Gibsons">
+              <div class="family">
+                <h4>The Gibsons</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur excepturi, ea voluptate doloribus cupiditate maxime repellat, eius nisi temporibus cumque reprehenderit quas fugiat. Architecto, voluptatum!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci tempora sed nesciunt, inventore magni, aspernatur saepe ad praesentium eaque fugit est perferendis? Sapiente, esse, accusamus.</p>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="banner">
+        </section> -->
+   <!--    <section class="banner">
         <div class="container">
           <div>
             <h3>Here's a <span class="green">slogan</span> about why we're awesome.</h3>
             <p>Less important text goes here</p>
           </div>
         </div>
-      </section>
-      <section class="blog">
+      </section> -->
+      <!-- <section class="blog">
         <div class="container">
           <h2>On The Farm</h2>
           <div class="blog-content flex">
@@ -93,7 +93,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
     <?php endwhile; // end the loop?>
   </div> <!-- /,content -->
 </div> <!-- /.main -->
