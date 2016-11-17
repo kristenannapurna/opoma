@@ -82,6 +82,14 @@ function hackeryou_scripts() {
     true //load in footer
   );
 
+   wp_enqueue_script(
+    'googlemaps', //handle
+    "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://maps.googleapis.com/maps/api/js?key=AIzaSyDQ7_nnz5nrPNr8Ay5tntTaBFOXgiUCEEI",
+    false, //dependencies
+    null, // version number
+    true //load in footer
+  );
+
   wp_enqueue_script(
     'plugins', //handle
     get_template_directory_uri() . '/js/plugins.js', //source
@@ -90,15 +98,21 @@ function hackeryou_scripts() {
     true //load in footer
   );
 
+
+
   wp_enqueue_script(
     'scripts', //handle
     get_template_directory_uri() . '/js/main.min.js', //source
-    array( 'jquery', 'plugins' ), //dependencies
+    array( 'jquery', 'plugins', 'googlemaps' ), //dependencies
     null, // version number
     true //load in footer
   );
 
 }
+
+
+
+
 
 add_action( 'wp_enqueue_scripts', 'hackeryou_scripts');
 
