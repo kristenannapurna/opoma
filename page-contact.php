@@ -14,11 +14,15 @@
 					<div class="contact-box">
 						<p><i class="fa fa-map-marker"></i></p>
 						<h3>In Person</h3>
-						<p>Nestled just north of the Hamlet Wooler</p>
-						<p>Opoma Farms</p>
+						<p><em>Nestled just north of the Hamlet Wooler</em></p>
 						<p>450 County Road 5</p>
 						<p>Wooler, ON</p>
 						<p>K0K 3M0</p>
+					</div>
+					<div class="contact-box">
+						<p><i class="fa fa-envelope"></i></p>
+						<h3>By Email</h3>
+						<a href="mailto:opomafarms@gmail.com">opomafarms@gmail.com</a>
 					</div>
 					<div class="contact-box">
 						<p><i class="fa fa-phone"></i></p>
@@ -26,11 +30,6 @@
 						<p><strong>John Moelker</strong> <a href="tel:6138273050">(613) 827-3050</a></p>
 						<p><strong>Connie Moelker</strong> <a href="tel:6138272530">(613) 827-2530</a></p>
 						<p><strong>Brad Gibson</strong> <a href="tel:6138274602">(613) 827-4602</a></p>
-					</div>
-					<div class="contact-box">
-						<p><i class="fa fa-envelope"></i></p>
-						<h3>By Email</h3>
-						<a href="mailto:opomafarms@gmail.com">opomafarms@gmail.com</a>
 					</div>
 				</div>
 				<?php the_content(); ?>

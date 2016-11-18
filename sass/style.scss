@@ -172,7 +172,7 @@ section{
 
 .page, .blog, .single{
 	header{
-		background: #12191b;
+		background: #27363a;
 		a{
 			color: white;
 			&:hover{
@@ -185,5 +185,35 @@ section{
 		p{
 			font-size: 20px;
 		}
+	}
+}
+
+.contact-boxes{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 100px 0 50px 0;
+	h3{
+		text-transform: uppercase;
+	}
+
+}
+
+.contact-box{
+	background: #fafafa;
+	flex: 1 0 calc(33.3% - 10px);
+	margin: 5px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: space-around;
+	padding: 30px 0;
+	i{
+		color: $green;
+		font-size: 30px;
+	}
+	p{
+		margin: 0;
+		padding: 0;
 	}
 }

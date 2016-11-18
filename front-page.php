@@ -44,18 +44,18 @@
           <div class="testimonials-group">
             <div class="testimonial-single">
               <img src=" <?php bloginfo('template_directory') ?>/images/testimonial-quote.png" alt="quote">
-              <h4>Harry Potter</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad voluptatum consectetur quos. Quasi, in!</p>
+              <h4><?php the_field('testimonial_1') ?></h4>
+              <p><?php the_field('testimonial_text_1') ?></p>
             </div>
             <div class="testimonial-single">
               <img src=" <?php bloginfo('template_directory') ?>/images/testimonial-quote.png" alt="quote">
-              <h4>Hermione Granger</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, possimus, accusantium. Quasi officia, non totam quos?</p>
+              <h4><?php the_field('testimonial_2') ?></h4>
+              <p><?php the_field('testimonial_text_2') ?></p>
             </div>
             <div class="testimonial-single">
               <img src=" <?php bloginfo('template_directory') ?>/images/testimonial-quote.png" alt="quote">
-              <h4>Ron Weasley</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed error expedita facere at exercitationem eveniet perferendis itaque aut?</p>
+              <h4><?php the_field('testimonial_3') ?></h4>
+              <p><?php the_field('testimonial_text_3') ?></p>
             </div>
           </div>
         </div>

@@ -13,6 +13,9 @@ footer {
 		text-align: center;
 		.menu{
 			order: 2;
+			@include respond-to(small){
+				flex-direction: column;
+			}
 		}
 		ul{
 			display: flex;

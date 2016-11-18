@@ -21,7 +21,9 @@
           <?php bloginfo( 'name' ); ?>
         </a>
       </h1>
-
+      <?php if (! is_front_page()){ ?>
+      <div class="logo-hidden"><a href="<?php echo home_url( '/' ); ?>"><img src="<?php bloginfo('template_directory')  ?>/images/opoma-logo.png" alt="Opoma Farms Logo"></a></div>
+      <?php } ?>
       <?php wp_nav_menu( array(
         'container' => false,
         'theme_location' => 'primary'
@@ -30,9 +32,8 @@
     <div class="logo">
       <?php if (is_front_page()){ ?>
         <a href="<?php echo home_url( '/' ); ?>"><img src="<?php bloginfo('template_directory')  ?>/images/opoma-logo.png" alt="Opoma Farms Logo"></a>
-       <?php } else { ?>
-        
        <?php } ?>
+        
       
     </div>
   </div> <!-- /.container -->
