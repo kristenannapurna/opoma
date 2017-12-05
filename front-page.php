@@ -60,40 +60,6 @@
           </div>
         </div>
       </section>
-        <!-- <section class="meet">
-          <div class="container">
-            <h2>Meet The Family</h2>
-            <div class="flex">
-              <img src="https://placehold.it/500x400" alt="The Gibsons">
-              <div class="family">
-                <h4>The Gibsons</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur excepturi, ea voluptate doloribus cupiditate maxime repellat, eius nisi temporibus cumque reprehenderit quas fugiat. Architecto, voluptatum!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci tempora sed nesciunt, inventore magni, aspernatur saepe ad praesentium eaque fugit est perferendis? Sapiente, esse, accusamus.</p>
-              </div>
-            </div>
-          </div>
-        </section> -->
-   <!--    <section class="banner">
-        <div class="container">
-          <div>
-            <h3>Here's a <span class="green">slogan</span> about why we're awesome.</h3>
-            <p>Less important text goes here</p>
-          </div>
-        </div>
-      </section> -->
-      <!-- <section class="blog">
-        <div class="container">
-          <h2>On The Farm</h2>
-          <div class="blog-content flex">
-            <img src="https://placehold.it/500x400" alt="featured image">
-            <div class="blog-exerpt">
-              <h3>Blog Post Title</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias neque, corrupti sit deserunt autem iste molestiae, aut repellendus. Cumque voluptatum laborum quisquam, magnam incidunt ab molestiae aliquid sapiente corporis natus obcaecati alias esse vero labore, expedita temporibus eveniet, laboriosam accusantium!</p>
-              <a href="#">Read more...</a>
-            </div>
-          </div>
-        </div>
-      </section> -->
     <?php endwhile; // end the loop?>
   </div> <!-- /,content -->
 </div> <!-- /.main -->

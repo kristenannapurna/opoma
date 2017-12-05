@@ -21,7 +21,7 @@
         </div>
         <div class="instagram">
             <h3>Views From The Farm</h3>
-          <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/ed2fb6806b93590486d1ef180078dfbf.html" id="lightwidget_ed2fb6806b" name="lightwidget_ed2fb6806b"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+          <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/6d03ad8e38ba5a9f84fd0aade318103a.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
 
       </div>
   </div>

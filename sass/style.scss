@@ -95,12 +95,12 @@ section{
 }
 
 .testimonials{
-	background: url("./images/opoma-skyline.jpg");
+	background: url("./images/testimonial/testimonialbg3.jpg");
 	background-size: cover;
 	color: white;
 	text-align: center;
 	h2{
-		color: #333;
+		// color: #333;
 		@include respond-to('max-width: 925px'){
 			margin: 0;
 		}
@@ -184,6 +184,9 @@ section{
 		padding-bottom: 50px;
 		p{
 			font-size: 20px;
+		}
+		img{
+			max-width: 100%;
 		}
 	}
 }

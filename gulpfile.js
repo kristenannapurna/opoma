@@ -11,12 +11,12 @@ var gulp   = require('gulp'),
 		sourcemaps = require('gulp-sourcemaps'),
 		uglify = require('gulp-uglify');
 
-gulp.task('bs', function() {
-	browserSync.init({
-		// if running on windows, change this to http://localhost
-		proxy: 'http://localhost:8888'
-	});
-});
+// gulp.task('bs', function() {
+// 	browserSync.init({
+// 		// if running on windows, change this to http://localhost
+// 		proxy: 'http://localhost:8888'
+// 	});
+// });
 
 gulp.task('styles', function() {
 	return gulp.src('./sass/**/*.scss')
@@ -54,7 +54,7 @@ gulp.task('images', function () {
 gulp.task('watch', function() {
 	gulp.watch('sass/**/*.scss', ['styles']);
 	gulp.watch('./js/**/*.js', ['scripts']);
-	gulp.watch('./**/*.php', reload);
+	gulp.watch('./**/*.php');
 });
 
-gulp.task('default', ['styles', 'scripts', 'images', 'bs', 'watch']);
+gulp.task('default', ['styles', 'scripts', 'images', 'watch']);
